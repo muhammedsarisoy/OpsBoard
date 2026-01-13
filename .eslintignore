@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env*.local
+
+# Coverage
+coverage/
+.nyc_output
+
+# Prisma
+apps/api/prisma/migrations/
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Generated files
+*.generated.*
+*.d.ts.map
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Config files
+*.config.js
+*.config.ts
+.eslintrc.json
+.prettierrc.json

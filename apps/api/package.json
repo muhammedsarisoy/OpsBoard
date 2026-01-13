@@ -8,6 +8,10 @@
     "dev": "tsx watch src/main.ts",
     "build": "tsc",
     "start": "node dist/main.js",
+    "lint": "eslint src --ext .ts --max-warnings 0",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.{ts,json}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,json}\"",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
     "prisma:studio": "prisma studio"
@@ -16,14 +20,28 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inversify": "^6.0.2",
+    "@inversifyjs/reflect-metadata-utils": "^0.2.4",
+    "@prisma/client": "^5.22.0",
+    "@types/express": "^5.0.6",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "inversify": "^6.2.2",
+    "jsonwebtoken": "^9.0.3",
+    "pino": "^10.1.1",
     "reflect-metadata": "^0.2.2",
-    "@prisma/client": "^5.0.0"
+    "supertest": "^7.2.2",
+    "ts-node": "^10.9.2",
+    "vitest": "^4.0.17",
+    "winston": "^3.19.0",
+    "zod": "^4.3.5"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
-    "prisma": "^5.0.0",
+    "@types/node": "^20.19.29",
+    "prisma": "^5.22.0",
     "tsx": "^4.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.9.3"
   }
 }

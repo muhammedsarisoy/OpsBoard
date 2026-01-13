@@ -1,0 +1,14 @@
+{
+  "name": "@opsboard/web",
+  "version": "1.0.0",
+  "description": "OpsBoard Web Application",
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'Web dev script'",
+    "build": "echo 'Web build script'",
+    "start": "echo 'Web start script'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

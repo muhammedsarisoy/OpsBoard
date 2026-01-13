@@ -1,0 +1,14 @@
+{
+  "name": "@opsboard/admin",
+  "version": "1.0.0",
+  "description": "OpsBoard Admin Dashboard",
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'Admin dev script'",
+    "build": "echo 'Admin build script'",
+    "start": "echo 'Admin start script'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

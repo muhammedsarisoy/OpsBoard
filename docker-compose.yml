@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  # Add your services here
+  # Example:
+  # api:
+  #   build:
+  #     context: .
+  #     dockerfile: docker/api.Dockerfile
+  #   ports:
+  #     - "3000:3000"
+  #   environment:
+  #     - NODE_ENV=development
